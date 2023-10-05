@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homework</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+	<nav class="nav">
+		<div class="container">
+			<div class="nav-row">
+				<a href="./index.html" class="logo"><img src="./img/nav/Logo.svg" alt=""></a>
+
+				<ul class="nav-list">
+					<li class="nav-list__item"><a href="#!" class="nav-list__link">Home</a></li>
+					<li class="nav-list__item"><a href="#!" class="nav-list__link">Pages</a></li>
+					<li class="nav-list__item"><a href="#!" class="nav-list__link">Blog</a></li>
+					<li class="nav-list__item"><a href="#!" class="nav-list__link">Demos</a></li>
+					<li class="nav-list__item"><a href="#!" class="nav-list__link">Docs</a></li>
+				</ul>
+
+				<a href="#!" class="btn_nav">Buy Now</a>
+
+			</div>
+		</div>
+	</nav>
+
+	<header class="header">
+		<div class="container">
+			<div class="columns_header">
+				<div class="header_left">
+					<div class="text_1">Simple online hotel management system</div>
+					<div class="text_2">Maecenas sed ligula ut dui pharetra aliquet. Vestibulum eget orci libero. Sed est sem,
+						mollis
+						nec lectus nec, varius suscipit ligula. </div>
+					<div class="button_group">
+						<a href="#!" class="btn_header">About Us</a>
+						<a href="#!" class="btn_play_left"><img src="./img/header/play.svg" alt="play" class="play">Watch Video</a>
+					</div>
+				</div>
+				<div class="header_right">
+					<a href="#!" class="btn_play_right"><img src="./img/header/play.svg" alt="play"></a>
+				</div>
+
+				<div id="videoPlayer" class="video-player">
+					<div class="video-container">
+						<video controls autoplay>
+							<source src="./video/SeaOfThieves.mp4" type="video/mp4">
+							Ваш браузер не підтримує відео.
+						</video>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="section_1">
+			<div class="container">
+				<div class="features_columns">
+					<div class="columns">
+						<div class="column_title">Market Research</div>
+						<div class="column_text">Quisque at arcu at turpis lobortis ultrices. Nullam et accumsan mauris. Nunc
+							pellentesque in tellus.</div>
+						<div class="column_img">
+							<img src="./img/main/featured/features_1.gif" class="column_img_web" alt="">
+							<img src="./img/main/featured/features_mob_1.jpg" class="column_img_mobile" alt="">
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column_title">Growth Strategy</div>
+						<div class="column_text">Quisque at arcu at turpis lobortis ultrices. Nullam et accumsan mauris. Nunc
+							pellentesque in tellus.</div>
+						<div class="column_img">
+							<img src="./img/main/featured/features_2.gif" class="column_img_web" alt="">
+							<img src="./img/main/featured/features_mob_2.jpg" class="column_img_mobile" alt="">
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column_title">Digital Marketing</div>
+						<div class="column_text">Quisque at arcu at turpis lobortis ultrices. Nullam et accumsan mauris. Nunc
+							pellentesque in tellus.</div>
+						<div class="column_img">
+							<img src="./img/main/featured/features_3.gif" class="column_img_web" alt="">
+							<img src="./img/main/featured/features_mob_3.jpg" class="column_img_mobile" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="about">
+				<div class="about_left">
+					<img src="./img/main/about_1/image_1.jpg" alt="image1" id="videoImageDefault">
+					<img src="./img/main/about_1/image_2.jpg" alt="image2" id="image2" >
+					<img src="./img/main/about_1/image_3.jpg" alt="image3" id="image3">
+				</div>
+
+				<div class="about_right">
+					<a href="#!" class="about_red_button">
+						<p class="red_button"> What we do?</p>
+					</a>
+					<div class="about_text_1">Reservations Management</div>
+					<div class="about_text_2">Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae. Quisque sit amet
+						nisi erat.</div>
+					<div class="about_button_group">
+						<a href="#!" class="about_button about_button_active" onclick="changeButtonColor(this)">
+							<img src="./img/main/about_1/arrow_white.svg" alt="">
+							<p class="about_button_text_active">Sed eleifend est ac mi imperdiet pellentesque.</p>
+						</a>
+						<a href="#!" class="about_button" onclick="changeButtonColor(this)">
+							<img src="./img/main/about_1/arrow_blue.svg" alt="">
+							<p class="about_button_text">Vestibulum vitae libero dolor pretium aliquam.</p>
+						</a>
+						<a href="#!" class="about_button" onclick="changeButtonColor(this)">
+							<img src="./img/main/about_1/arrow_blue.svg" alt="">
+							<p class="about_button_text">Quisque luctus risus at semper sollicitudin.</p>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="about">
+				<div class="about_right">
+					<a href="#!" class="about_red_button">
+						<p class="red_button"> What we do?</p>
+					</a>
+					<div class="about_text_1">Fast Reports</div>
+					<div class="about_text_2">Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae. Quisque sit amet
+						nisi erat.</div>
+					<div class="about_button_group">
+						<a href="#!" class="about_button about_button_active" onclick="changeButtonColor(this)">
+							<img src="./img/main/about_1/arrow_white.svg" alt="">
+							<p class="about_button_text_active">Sed eleifend est ac mi imperdiet pellentesque.</p>
+						</a>
+						<a href="#!" class="about_button" onclick="changeButtonColor(this)">
+							<img src="./img/main/about_1/arrow_blue.svg" alt="">
+							<p class="about_button_text">Vestibulum vitae libero dolor pretium aliquam.</p>
+						</a>
+						<a href="#!" class="about_button" onclick="changeButtonColor(this)">
+							<img src="./img/main/about_1/arrow_blue.svg" alt="">
+							<p class="about_button_text">Quisque luctus risus at semper sollicitudin.</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="about_left">
+					<img src="./img/main/about_1/image_right_1.jpg" alt="image_right_1" id="videoImageDefault">
+					<img src="./img/main/about_1/image_right_2.jpg" alt="image_right_2" id="image2" >
+					<img src="./img/main/about_1/image_right_3.jpg" alt="image_right_3" id="image3">
+				</div>
+			</div>
+		</div>
+
+		<div class="customers_data">
+			<div class="data_columns">
+				<div class="data_numbers">202</div>
+				<div class="data_text">Happy <br> Customers</div>
+			</div>
+			<div class="data_columns">
+				<div class="data_numbers">765</div>
+				<div class="data_text">Reservation <br> Request</div>
+			</div>
+			<div class="data_columns">
+				<div class="data_numbers">12</div>
+				<div class="data_text">Color <br> Template</div>
+			</div>
+			<div class="data_columns">
+				<div class="data_numbers">186</div>
+				<div class="data_text">Staff <br> Account</div>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="packages_info">
+
+				<div class="packages_title">
+					<a href="#!" class="about_red_button">
+						<p class="red_button">Pricing</p>
+					</a>
+					<div class="about_text_1">Our Packages</div>
+					<div class="about_text_title">Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae. Quisque sit
+						amet
+						nisi erat.</div>
+				</div>
+
+				<div class="package_columns">
+					<div class="packages_text">SMALL PACK</div>
+					<div class="packages_price">$19</div>
+					<ul class="package_list">
+						<li class="package_list_text">Unlimited Reservations</li>
+						<li class="package_list_text">2 Clients and Products</li>
+						<li class="package_list_text">Invoicing and Payments</li>
+						<li class="package_list_text">Housekeeping Status</li>
+						<li class="package_list_text__white">Data Security and Backups</li>
+						<li class="package_list_text__white">Unlimited Staff Accounts</li>
+						<li class="package_list_text__white">Web Booking Widget</li>
+						<li class="package_list_text__white">Monthly Reports and Analytics</li>
+					</ul>
+					<a href="#!" class="packages_button">Select Plan</a>
+				</div>
+
+				<div class="package_columns package_columns_active">
+					<div class="packages_text packages_text_active">MEDIUM PACK</div>
+					<div class="packages_price">$29</div>
+					<ul class="package_list">
+						<li class="package_list_text">Unlimited Reservations</li>
+						<li class="package_list_text">2 Clients and Products</li>
+						<li class="package_list_text">Invoicing and Payments</li>
+						<li class="package_list_text">Housekeeping Status</li>
+						<li class="package_list_text">Data Security and Backups</li>
+						<li class="package_list_text">Unlimited Staff Accounts</li>
+						<li class="package_list_text__white">Web Booking Widget</li>
+						<li class="package_list_text__white">Monthly Reports and Analytics</li>
+					</ul>
+					<a href="#!" class="packages_button packages_button_active">Select Plan</a>
+				</div>
+
+				<div class="package_columns">
+					<div class="packages_text">LARGE PACK</div>
+					<div class="packages_price">$39</div>
+					<ul class="package_list">
+						<li class="package_list_text">Unlimited Reservations</li>
+						<li class="package_list_text">2 Clients and Products</li>
+						<li class="package_list_text">Invoicing and Payments</li>
+						<li class="package_list_text">Housekeeping Status</li>
+						<li class="package_list_text">Data Security and Backups</li>
+						<li class="package_list_text">Unlimited Staff Accounts</li>
+						<li class="package_list_text">Web Booking Widget</li>
+						<li class="package_list_text">Monthly Reports and Analytics</li>
+					</ul>
+					<a href="#!" class="packages_button">Select Plan</a>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="download_info">
+
+				<div class="download_title">
+					<div class="about_text_1">Download App</div>
+					<div class="about_text_title">Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae. Quisque sit
+						amet
+						nisi erat.</div>
+				</div>
+
+				<div class="download_columns">
+					<a href="#!"><img src="./img/main/download/app_store.svg" alt=""></a>
+				</div>
+
+				<div class="download_columns">
+					<a href="#!"><img src="./img/main/download/google_play.svg" alt=""></a>
+				</div>
+
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="footer_info">
+
+				<div class="footer_columns">
+					<div class="footer_logo">
+						<a href="./index.html" class="logo"><img src="./img/nav/Logo.svg" alt=""></a>
+					</div>
+					<div class="footer_text">Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat
+						eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper.</div>
+				</div>
+
+				<div class="footer_columns_duo">
+					<div class="footer_column_left">
+						<div class="footer_title">Helpful Links</div>
+						<div class="footer_list">
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								About Us</a>
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								Features</a>
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								FAQ’s</a>
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								Blog</a>
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								Contact</a>
+						</div>
+					</div>
+					<div class="footer_column_left">
+						<div class="footer_title">Services</div>
+						<div class="footer_list">
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								Worldwide</a>
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								Scalable</a>
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								Modular</a>
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								Connectivity</a>
+							<a href="#!" class="footer_list_text"><img src="./img/footer/arrow.svg" alt="" class="footer_arrow">
+								Corporate</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer_columns">
+					<div class="footer_title">Contact Us</div>
+					<ul class="footer_list">
+						<li class="footer_spacing_text">455 West Orchard Street <br>
+							Kings Mountain, NC 28086</li>
+						<li class="footer_spacing_text">Phone: <a class="footer_spacing_text" href="tel:+380678745738">(067)
+								874-7370</a></li>
+						<li class="footer_spacing_text">E-Mail: <a class="footer_spacing_text"
+								href="mailto:support@brand.com">support@brand.com</a></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="footer_arr">© 2020 YourSite. All Rights Reserved.</div>
+		</div>
+	</footer>
+
+	<script src="./js/script.js"></script>
+
+</body>
+
+</html>
